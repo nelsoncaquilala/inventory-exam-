@@ -1,0 +1,88 @@
+
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  margin-top: -1px;
+
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none; /*Safari*/
+  -moz-user-select: none; /*Firefox*/
+}
+input
+{
+  user-select: none;
+  -webkit-user-select: none; /*Safari*/
+  -moz-user-select: none; /*Firefox*/
+}
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 5px;
+  font-size: 17px;
+  width: 8%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  /* color: gray; */
+  /* display: none; */
+  /* padding: 0px 20px; */
+  /* height: 100%; */
+}
+.tabcontent .alllogo
+{
+  width: 20px;
+}
+.tabcontent button
+{
+  padding:5px 20px;  
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border:none;
+  border-bottom:2px solid gray;
+  /* background-color:transparent; */
+
+}
+.tabcontent button b
+{
+  font-size: 11px;
+  width: 20px;
+  color:black;
+  text-transform: none;
+}
+  table.productstable td
+  {
+    padding:1px 5px;
+  }
+  table.productstable td label
+  {
+    /* padding:5px 5px;
+     */
+     font-weight: normal;
+  }
+  .cl th
+  {
+    font-size: 11px;
+  }
+  .cl td
+  {
+    font-size: 11px;
+  }
+/* #Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;} */

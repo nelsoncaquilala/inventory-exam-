@@ -1,0 +1,117 @@
+/* @import url(https://fonts.googleapis.com/css?family=Jaldi:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900); */
+html {
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none; /*Safari*/
+  -moz-user-select: none; /*Firefox*/
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    /* background:#ecf0f1 none repeat scroll 0 0; */
+	background-color: black;
+    /* color: rgb(250, 246, 246); */
+	/* color:darkgoldenrod; */
+	color: rgb(250, 246, 246);
+	
+    font-family: "Jaldi",sans-serif;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0;
+	padding:0;
+
+	user-select: none;
+	-webkit-user-select: none; /*Safari*/
+	-moz-user-select: none; /*Firefox*/
+}
+a{
+	font-family: 'Jaldi', sans-serif;
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+	color: #373e18;
+}
+
+
+/* -------------------------------------------------------------------------------------------
+	ITEM DEMO Style -  SHOULD REQUIRE to add while implementing on your web page.
+---------------------------------------------------------------------------------------------- */
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
+  border:1px solid gray;
+  width: 100%;
+  vertical-align: top;
+	display: inline;
+	margin-left: 3.6%;
+margin: auto;
+	/* overflow: auto; */
+	/* m */
+
+}
+.Site-contentright {
+	flex: 1;
+	/* border:1px solid red; */
+	width: 26%;
+	/* vertical-align: top;
+	display: inline; */
+	float: right;
+	margin-top: -52px;
+	/* margin-left: 10px; */
+  }
+  .Site-contentleft {
+	flex: 1;
+	/* border:1px solid red; */
+	width: 72%;
+	vertical-align: top;
+	display: inline;
+	float: left;
+	display: flex;
+	min-height: 56vh;
+	/* background-color: red; */
+	border:1px solid darkgray;
+	padding:10px 10px;
+	background-color: #fff;
+	color:black;
+	overflow: auto;
+  }
+
+
+
+/* footer area*/
+footer{
+	background:#bfc197;	
+	padding:15px 0;
+	/* border-top:1px solid darkgray; */
+}
+footer ul{
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+footer li{
+	list-style:none;
+	display:inline-block;
+	padding:5px 12px;
+	
+}
+footer li a{
+	text-transform:capitalize;
+	text-decoration:none;
+	font-size:18px;
+	color:#000;
+}
+footer li a:hover{
+	color:#8e930c;
+}
+
+

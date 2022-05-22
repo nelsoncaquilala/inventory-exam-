@@ -1,0 +1,959 @@
+body, html
+{
+	margin:0px;
+
+}
+.header
+{
+	border:1px solid gray;
+	height: 100px;
+	margin:0px;
+	/*width: 100%;*/
+	box-shadow: 0px 1px 1px 1px gray;
+	background-image: url('../images/l.gif');
+	background-repeat: no-repeat;
+	background-attachment: absolute;
+	background-position: center;
+	background-size: 100% 100%;
+	
+}
+.body
+{
+
+	border: 1px solid lightgray;
+	float: center;
+	height: 100%;
+
+	/*//width: 100%;*/
+	background-image: url('../images/login1.jpg');
+	background-repeat: no-repeat;
+	background-position: left;
+	background-attachment: absolute;
+	background-size: 47% 95%;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+  opacity: 0.3
+	
+
+
+
+}
+.form
+{
+
+	margin-top: 163px;
+	margin-bottom: 165px;
+	border: 2px solid black;
+	height: 100%;
+	width: 50%;
+	margin-left: 48%;
+	border-radius: 10px;
+	box-shadow: 0px 2px 2px 3px gray;
+opacity: 1.0
+
+
+
+}
+.tduname
+   {
+    text-indent: 6%;
+    color: black;
+    border-radius: 10px;
+    width: 90%;
+    height: 30px;
+    padding: 3px;
+   
+    border:none;
+  /*  box-shadow: 1px 1px 1px 2px blue;*/
+  border: 1px solid black;
+  background-color: transparent;
+  padding-bottom: 0px;
+  margin-top: 1%;
+   }
+   .tduname:focus
+   {
+   	
+   	box-shadow: 0px 1px 2px 1px gray;
+   	opacity: 0.8
+   }
+    #pass
+   {
+    background-image: url('../images/login2.jpg');
+    background-size: 15% 100%;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: left;
+    border:1px solid black;
+   }
+   #user
+   {
+    background-image: url('../images/user.jpg');
+    background-size: 15% 100%;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: left;
+    border:1px solid black;
+    color: black;
+   }
+     .log
+   {
+   	 margin-top: 2%;
+    
+     text-indent: 20px;
+    color: darkblue;
+    width: 72%;
+    height: 60px;
+    padding: 3px;
+    border-radius: 5px;
+    border:none;
+    border:0px solid darkblue;
+    margin-bottom: 30px;
+    background-image: url('../images/images-4.jpg');
+    background-attachment: absolute;
+    background-position: center;
+    background-size: 100% 100%;
+opacity: 1.0
+
+   }
+   .upnav
+   {
+    height: 50px;
+    border: 1px solid gray;
+    background-color: gray;
+   }
+   .bodynav
+   {
+    border: 1px solid white;
+    height: auto;
+    margin-top: 1px;
+   }
+
+   .leftnav
+   {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: 0px solid gray;
+    background-color: lightgrey;
+    box-shadow: 0px 1px 1px px gray;
+    border-radius: 10px;
+   }
+   .adminbody
+   {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 24%;
+    width: 75%;
+    height: 60px;
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    
+   }
+   .adminbody h2
+   {
+    text-indent: 3%;
+    font-size: 100%;
+    color: blue;
+   }
+   .adminbody a
+   {
+    text-decoration: none;
+    color:black;
+   }
+   .abody .td
+   {
+    background-color: gray;
+    height: 30px;
+    border: 1px solid blue;
+   }
+  .adminbody .inp
+   {
+    float:right;margin-right: 1%;
+    height: 25px;
+    width: 50%;
+    border-radius: 5px;
+    border:1px solid lightgrey  ;
+    text-indent: 35px;
+    background-image: url('../images/searchicon.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: absolute;
+    background-size: 10% 100%;
+
+   }
+   .adminbodyy button
+   {
+     cursor: pointer;
+    box-shadow: 0px 4px 4px 5px gray;
+    margin-right: 10px;
+    border-radius: 8px;
+    font-size: 90%;
+   }
+   .abody
+   {
+    height: 382px;
+      margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 24%;
+    width: 75%;
+    background-color: lightgrey;
+ 
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px gray;
+    overflow-x: scroll;
+   }
+   .adminbody a:hover
+   {
+    color: purple;
+   }
+   .bodynav input
+   {
+    height: 30px;
+    width: 20%;
+    border:0px solid black;
+    margin-top: 5px;
+    margin-left: 1%;
+    text-indent: 5%;
+    border-radius: 5px;
+   /* box-shadow: 0px 1px 1px 1px black;*/
+   }
+   .adminbodysud
+   {
+     margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 24%;
+    width: 75%;
+    /*//background-color: gray;*/
+    border: 0px solid gray;
+    border-radius: 5px;
+   
+   }
+   .adminbodysud button
+   {
+    cursor: pointer;
+   /* box-shadow: 0px 4px 4px 5px gray;*/
+    margin-right: 10px;
+    border-radius: 8px;
+    font-size: 25px;
+    
+    color: ;
+   }
+    .adminbodysud button:hover
+    {
+      background-color: black;
+    
+    }
+
+
+ 
+   .leftnav img
+   {
+    height: 50px;
+    width: 100%;
+    border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+   }
+   .leftnav li
+   {
+    list-style: none;
+     margin-top:1px;
+     margin-bottom: 2px;
+    height: 40px;
+   }
+   .leftnav a:active
+   {
+    
+    text-decoration: none;
+   }
+    .leftnav button
+   {
+      border :0px solid black;
+      width: 90%;
+      height: 100%; 
+      font-size: 100%;
+      text-align: left;
+      cursor: pointer;
+   }
+   
+   .leftnav button:hover
+   {
+    box-shadow: 2px 0px 0px 0px blue;
+    border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     
+   }
+.button1
+{
+
+  background-image: url(../images/adminimg/images.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+  background-color: transparent;
+
+}
+.button2
+{
+  background-image: url(../images/adminimg/images.jpg);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+    background-color: transparent;
+}
+.button3
+{
+  background-image: url(../images/adminimg/index.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+    background-color: transparent;
+}
+.button4
+{
+  background-image: url(../images/adminimg/supplier.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+    background-color: transparent;
+}
+.button5
+{
+  background-image: url(../images/adminimg/salesreport.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+    background-color: transparent;
+}
+.button6
+{
+  background-image: url(../images/adminimg/cash.jpg);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+    background-color: transparent;
+}
+.button7
+{
+  background-image: url(../images/adminimg/credit.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+    background-color: transparent;
+}
+.button8
+{
+  background-image: url(../images/adminimg/createuser.jpg);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+    background-color: transparent;
+}
+.button9
+{
+  background-image: url(../images/adminimg/product1.jpg);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  background-size: 100% 100%;
+  background-color: white;
+    background-color: transparent;
+
+  /*filter: alpha(opacity=40); */
+  opacity: 0.6
+}
+.button9:hover
+{
+    opacity: 1.0;
+    /*filter: alpha(opacity=100);*/
+}
+
+.button10
+{
+  background-image: url(../images/adminimg/customer1.jpg);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  background-size: 100% 100%;
+  background-color: white;
+    background-color: transparent;
+  opacity:0.6
+}
+.button10:hover
+{
+    opacity: 1.0;
+    /*filter: alpha(opacity=100);*/
+}
+.button11
+{
+  background-image: url(../images/adminimg/supplier1.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  background-size: 100% 100%;
+  background-color: white;
+    background-color: transparent;
+    opacity:0.6
+}
+.button11:hover
+{
+    opacity: 1.0;
+    /*filter: alpha(opacity=100);*/
+}
+.button12
+{
+  background-image: url(../images/adminimg/salesreport1.jpg);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  background-size: 100% 100%;
+  background-color: white;
+  font-weight: bold;
+    background-color: transparent;
+opacity:0.6
+}
+.button12:hover
+{
+    opacity: 1.0;
+    /*filter: alpha(opacity=100);*/
+}
+.button13
+{
+  background-image: url(../images/adminimg/cashc.jpg);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 100% 100%;
+  background-color: white;
+  text-indent: 20%;
+  opacity:0.6
+}
+.button13:hover
+{
+    opacity: 1.0;
+    /*filter: alpha(opacity=100);*/
+}
+.button14
+{
+  background-image: url(../images/adminimg/creditt.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 100% 100%;
+  background-color: white;
+  text-indent: 20%;
+  opacity:0.6
+}
+.button14:hover
+{
+    opacity: 1.0;
+    /*filter: alpha(opacity=100);*/
+}
+.button15
+{
+  background-image: url(../images/adminimg/createuserr.jpg);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 100% 100%;
+  background-color: white;
+  text-indent: 20%;
+  opacity:0.6
+}
+.button15:hover
+{
+    opacity: 1.0;
+    /*filter: alpha(opacity=100);*/
+}
+.button16
+{
+  background-image: url(../images/adminimg/history.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 100% 100%;
+  background-color: white;
+  text-indent: 20%;
+  opacity:0.6
+}
+.button16:hover
+{
+    opacity: 1.0;
+    /*filter: alpha(opacity=100);*/
+}
+.button17
+{
+  background-image: url(../images/adminimg/history1.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-weight: bold;
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+    background-color: transparent;
+}
+
+
+   .upnav img
+   {
+    margin-top: 1px;
+    height: 55%;
+    width: 4%;
+    margin-top: 1%;
+    float: right;
+    border-radius: 16px;
+   }
+   .upnav img:hover
+   {
+    opacity: 0.4
+   }
+   .posproductdetails
+   {
+    
+    border: 0px solid black;
+    width: 72%;
+    margin-left: 1%;
+    margin-top: .6%;
+    height: 110px;
+    float: left;
+    overflow-x: hidden;
+    box-shadow: 0px 1px 1px 1px gray;
+   }
+   .posproductorder
+   {
+    border: 0px solid black;
+    width: 72%;
+    margin-left: 1%;
+    margin-top: .6%;
+    height: 160px;
+    float: left;
+     overflow-x: hidden;
+      box-shadow: 0px 1px 1px 1px gray;
+   }
+   .posorder
+   {
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 75%;
+    width: 24%;
+    border: 1px solid gray;
+    box-shadow: 0px 1px 1px 1px gray;
+    height: 271px;
+   }
+   .totalorder
+   {
+
+  border: 1px solid black;
+    width: 98%;
+    margin-left: 1%;
+    margin-top: .6%;
+    height: 145px;
+    float: left;
+    background-color: gray;
+    border-radius: 20px;
+   }
+   .posorder button
+   {
+    height: 50px;
+    width: 40%;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+   }
+      .modal-content
+  {
+    background-color: lightgrey;
+    margin: 5% auto 15% auto;
+    border: none;
+     border-radius: 5px;
+      width: 25%; 
+    
+      color: lightgray;
+  }
+  .imgcontainer
+  {
+    text-align: center;
+     margin: 24px 0 12px 0;
+     position: relative;
+  }
+  .closes
+  {
+    
+     float: right;
+      color: black;
+      font-size: 30px;
+      margin-right: 15px;
+       font-weight: bold;
+  }
+  .closes:hover,
+  .closes:focus
+  {
+      color: red;
+      
+  
+      cursor: pointer;
+  }
+  .container
+  {
+    padding: 16px;
+  }
+.modal
+{
+  display: none;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+    top: 0;
+    width: 100%;
+     height: 100%;
+      overflow: auto;
+       background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.4);
+        padding-top: 60px;
+
+      } 
+
+   .tdunamee
+   {
+    /*padding-bottom: 10px;*/
+    width: 85%;
+ height: 40px;
+ background-color: transparent;
+ border:1px solid gray;
+ text-indent: 10px;
+margin-bottom: 5px;
+   }
+   .tdunamee:focus
+   {
+
+    box-shadow: 0px 1px 2px 2px blue;
+   }
+   .uname
+   {
+       width: 89%;
+  padding: 12px 20px;
+  height: 40px;
+    margin: 8px 0;
+    border: 1px solid gray;
+     display: inline-block;
+      border-radius: 10px;
+      box-sizing: border-box;
+      background-color: transparent;
+
+   }
+     .uname:focus
+   {
+
+    box-shadow: 0px 1px 2px 2px blue;
+   }
+   .login
+   {
+   width: 100%;
+   background-color: gray; 
+   color: white; 
+ border-radius: 10px;
+   font-weight: bold; 
+   border:none;
+   height: 45px;  
+   border:1px solid gray;
+   
+   }
+   .login:hover
+   {
+      opacity: 0.7
+   }
+   .tdl
+   {
+    color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: gray;
+  border:none;
+  height: 30px;
+  font-size:12px; 
+   border: 1px solid gray;
+   }
+   .tdlist
+
+   {
+    background-color: transparent;
+  border: 1px solid gray;
+  color: black ;
+  text-align: center;
+  font-size: 12px;
+   }
+   .editdelete
+   {
+    background-color: transparent;
+  border: 1px solid gray;
+  width: 13%;
+   }
+   .tdelete
+   {
+    border:0px solid gray;
+    width: 45%;
+    font-weight: bold;
+   }
+    .prosubmit
+  {
+    height: 35px;
+    margin-right: 3px;
+    background-color: gray;
+    float: right;
+    color: white;
+    font-weight: bold;
+    width:200px;
+
+  }
+  .tab td
+  {
+    
+    border:1px solid black;
+
+
+  }
+  .sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: url('../images/5.png');
+    overflow-x: hidden;
+
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+    color:black;
+}
+.sidenav .closebtn:hover {
+   color: red;
+}
+.sidenav button
+{
+  border: 1px solid skyblue;
+  margin-top: 3%;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  width:90%;
+  border-radius: 5px;
+}
+.sidenav  button:hover
+{
+  list-style: none;
+  box-shadow: 0px 1px 2px 3px skyblue;
+  
+}
+/*sa show all history*/
+.sidena {
+    display: none;
+    height: 60%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin-top: 100px;
+    
+    background-color: lightgrey;
+    overflow-x: hidden;
+    margin-right: 70px;
+    padding-top: 60px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 15px 14px purple;
+}
+
+.sidena a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidena a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidena .closebton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+    color:black;
+}
+.sidena .closebton:hover {
+   color: red;
+}
+.sidena button
+{
+  border: 1px solid skyblue;
+  margin-top: 3%;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  width:90%;
+  border-radius: 5px;
+}
+.sidena  button:hover
+{
+  list-style: none;
+  box-shadow: 0px 1px 2px 3px skyblue;
+}
+.ttduname
+{
+
+    text-indent: 15%;
+    color: black;
+    border-radius: 5px;
+    width: 72%;
+    height: 50px;
+    padding: 3px;
+   
+    border:none;
+  /*  box-shadow: 1px 1px 1px 2px blue;*/
+  border: 1px solid gray;
+  background-color: transparent;
+  padding-bottom: 0px;
+  margin-top: 1%;
+   }
+   .ttduname:focus
+   {
+    
+    box-shadow: 0px 1px 2px 1px gray;
+    opacity: 0.8
+   }
+
+ .abody .in
+   {
+    float:right;margin-right: 1%;
+    height: 40px;
+    width: 40%;
+    border-radius: 3px;
+    text-indent: 20%;
+    border:1px solid gray;
+    text-indent: 35px;
+    background-image: url('../images/searchicon.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: absolute;
+    background-size: 10% 100%;
+
+   }
+   .abody .in:focus
+   {
+        width: 91.5%;
+        box-shadow: 1px 1px 2px 2px gray;
+        text-indent: 9%;
+         border-radius: 3px;
+   }
+.button19
+{
+
+  background-image: url(../images/adminimg/inventory.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+
+}
+.button20
+{
+
+  background-image: url(../images/adminimg/addproduct.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+  
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+
+}
+.button21
+{
+
+  background-image: url(../images/adminimg/addqty.png);
+  background-attachment: absolute;
+  background-repeat: no-repeat;
+  background-position: left;
+ 
+  background-size: 20% 100%;
+  background-color: white;
+  text-indent: 20%;
+
+}
